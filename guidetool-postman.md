@@ -18,3 +18,13 @@ The Postman UI brings all your workflow tools together:
 - **Flow**: build visual automation flows without code.
 
 ---
+
+## Creating and Sending Requests
+
+1. Click **New (+)** ▶ **Request**.  
+2. Pick an HTTP method (GET, POST, PUT, DELETE, etc.).  
+3. Enter the endpoint URL.  
+4. Add headers, parameters, or a request body as needed.  
+5. Hit **Send** to execute and view the response.
+
+---
