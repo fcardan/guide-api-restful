@@ -19,6 +19,18 @@ The Postman UI brings all your workflow tools together:
 
 ---
 
+## Parameters
+
+Parameters help make calls dynamic and reusable:
+
+| Type            | Location                         | Purpose                                  |
+|-----------------|----------------------------------|------------------------------------------|
+| Path Params     | In the URL path (`/users/:id`)   | Identify specific resources.             |
+| Query Params    | After `?` in the URL             | Filter or modify returned data.          |
+| Header Params   | In the HTTP headers              | Send metadata (auth, formatting, etc.).  |
+| Body Params     | In the request body (JSON, form) | Provide the data to be processed.        |
+
+---
 ## Creating and Sending Requests
 
 1. Click **New (+)** ▶ **Request**.  
