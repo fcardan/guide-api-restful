@@ -40,3 +40,18 @@ Parameters help make calls dynamic and reusable:
 5. Hit **Send** to execute and view the response.
 
 ---
+
+## Authorization
+
+The **Authorization** tab automates the `Authorization` header:
+
+| Type           | Common Use                     | Example                          |
+|----------------|--------------------------------|----------------------------------|
+| No Auth        | Public APIs                    | —                                |
+| API Key        | Static key                     | Header or query string           |
+| Bearer Token   | JWT / OAuth2                   | `Authorization: Bearer …`        |
+| Basic Auth     | Encoded user and password      | Legacy internal systems          |
+| OAuth 1.0 / 2.0| Secure token flows             | Social networks, banking APIs    |
+| Hawk / AWS Sig.| Specialized signatures         | AWS services, niche scenarios    |
+
+---
