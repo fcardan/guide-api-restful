@@ -55,3 +55,25 @@ The **Authorization** tab automates the `Authorization` header:
 | Hawk / AWS Sig.| Specialized signatures         | AWS services, niche scenarios    |
 
 ---
+
+## Headers
+
+Headers supply extra context for your request:
+
+- **Content-Type**: format of the payload (JSON, form-data, etc.).  
+- **Accept**: desired response format.  
+- **Authorization**: access credentials.  
+- **User-Agent**: client identifier.  
+- **Cache-Control**: cache directives.
+
+Example header table:
+
+| Key           | Value                         |
+|---------------|-------------------------------|
+| Content-Type  | `application/json`            |
+| Accept        | `application/json`            |
+| Authorization | `Bearer {{token}}`            |
+| User-Agent    | `PostmanRuntime/7.32.2`       |
+| Cache-Control | `no-cache`                    |
+
+---
