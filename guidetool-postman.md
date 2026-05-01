@@ -77,3 +77,20 @@ Example header table:
 | Cache-Control | `no-cache`                    |
 
 ---
+
+## Request Body
+
+The body carries the main payload for POST, PUT, PATCH, DELETE. Postman supports:
+
+| Mode                   | Use Case                                           |
+|------------------------|----------------------------------------------------|
+| none                   | No body (ideal for GET)                            |
+| form-data              | Form fields and file uploads                       |
+| x-www-form-urlencoded  | Standard form submission format                    |
+| raw                    | Raw text (JSON, XML, plain text)                   |
+| binary                 | Send binary files (PDF, images, etc.)              |
+| GraphQL                | GraphQL query and mutation requests                |
+
+> **Tip:** Always match the correct `Content-Type` header to your body format.
+
+---
