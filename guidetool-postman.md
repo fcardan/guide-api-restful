@@ -94,3 +94,14 @@ The body carries the main payload for POST, PUT, PATCH, DELETE. Postman supports
 > **Tip:** Always match the correct `Content-Type` header to your body format.
 
 ---
+
+## Scripts
+
+Add JavaScript to automate or test:
+
+| Script Type  | Execution Time      | Purpose                                    |
+|--------------|---------------------|--------------------------------------------|
+| Pre-request  | Before sending      | Generate dynamic data, set variables, auth |
+| Tests        | After response      | Validate response, store data, run checks  |
+
+---
