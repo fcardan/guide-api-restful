@@ -105,3 +105,15 @@ Add JavaScript to automate or test:
 | Tests        | After response      | Validate response, store data, run checks  |
 
 ---
+
+## Importing & Exporting Collections
+
+- **Import**  
+  1. Click **Import**.  
+  2. Select a JSON file or paste a cURL command.  
+
+- **Export**  
+  1. Right-click a collection ▶ **Export**.  
+  2. Choose version (v2.1 recommended) and save.
+
+---
