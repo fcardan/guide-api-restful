@@ -117,3 +117,24 @@ Add JavaScript to automate or test:
   2. Choose version (v2.1 recommended) and save.
 
 ---
+
+## Environment Variables
+
+1. Top-right ▶ **Environments** ▶ **Create Environment**.  
+2. Define variables (e.g., `base_url`, `token`).  
+3. Save and select the environment.
+
+Example:
+
+| Variable  | Value                     |
+|-----------|---------------------------|
+| base_url  | `http://localhost:3000`   |
+| token     | `eyJhbGciOiJIUzI1NiIsInR5cCI6…` |
+
+**Advanced Flow:** auto-refresh tokens
+
+1. In `/login` pre-request, fetch the token.  
+2. In **Tests**, run:
+   ```javascript
+   let data = pm.response.json();
+   pm.environment.set("token", data.access_token);
